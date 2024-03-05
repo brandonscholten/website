@@ -9,7 +9,7 @@ Once you have the correct file for your operating system downloaded, double clic
 
 After the install completes, you should be able to open VS Code as an application. Once open, you will be presented with the following screen:
 
-![](image.png)
+![](https://github.com/brandonscholten/website/blob/main/blog/markdown/image.png)
 
 Along the right side of the display there are several icons which allow for different functionality. 
 
