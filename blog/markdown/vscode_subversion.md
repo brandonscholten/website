@@ -31,13 +31,24 @@ Subversion is the dominant version control system used in introductory computer 
 
 ## SmartSVN
 
-
+SmartSVN is an svn client which works for both Windows and MacOS which allows you to work with SVN repositories without using the command line. 
 
 ### Install
 
+1. Go to [this website](https://www.smartsvn.com/download/)
+2. Click the appropriate download button for your operating system
+
 #### Windows
 
+1. Extract the files from the downloaded .zip folder and run the .exe file inside the folder. 
+2. Click "Yes" in the UAC prompt if asked to give permissions to edit files on your device. 
+3. The default options should be adequate, so click next/yes/install until the installation is complete. 
+
 #### MacOS
+
+1. Double click the downloaded file to start the installation.
+2. Click and drag the SmartSVN application into the Applications folder as directed. 
+3. You should now be able to run SmartSVN as an application. Launch SmartSVN from the Applications folder and agree to any terms and conditions. 
 
 ### Use
 
