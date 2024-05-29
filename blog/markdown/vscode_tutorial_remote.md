@@ -1,7 +1,7 @@
 # Visual Studio Code Setup
 written by Brandon Scholten 
 ## Getting Started
-Visual Studio Code is perhaps the best piece of software Microsoft has ever created, and it wil become your best friend as you advance on your journey in computer science. Visual Studio Code allows you to edit text files (specifically those containing source code) of nearly any type, and has a plethora of extensions which will make your life easier as a programmer. 
+ Visual Studio Code allows you to edit text files (specifically those containing source code) of nearly any type, and has a plethora of extensions which will make your life easier as a programmer. 
 
 To Acquire your copy of VS Code, click [here](https://code.visualstudio.com/download).
 
@@ -25,11 +25,11 @@ The icon with four squares allows you to install extensions which add extra feat
 
 ## Connecting to Wasp and Hornet
 
-As a computer science student you are provided access to your very own linux virtual machine hosted on a server. This virtual machine provides everything you need to code and run your C++ projects (if you are comfortable using the terminal).
+As a computer science student you are provided access to your very own linux virtual machine hosted on a server. This virtual machine provides everything you need to code and run your C++ projects using the terminal.
 
 In CSI, CSII, and CSIII, it is generally a good idea to ensure that your C++ projects compile on your linux virtual machine. In fact, this is often an important part of the criteria upon which your projects and labs are graded. 
 
-In years past, it was common for the Wasp and Hornet servers (where student virtual machines live) to be accessed using a terminal emulator such as PuTTY. In this scenario, the terminal would be used exclusively to manipulate files and compile code. 
+In years past, it was common for the Wasp and Hornet servers (where student virtual machines are hosted) to be accessed using a terminal emulator such as PuTTY. In this scenario, the terminal would be used exclusively to manipulate files and compile code. 
 
 To make life slightly easier, we can open an SSH connection to Wasp or Hornet using VSCode and work with the files in the remote virtual machine as if they were stored locally. 
 

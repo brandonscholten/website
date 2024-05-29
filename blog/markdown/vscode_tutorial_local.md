@@ -1,7 +1,7 @@
 # Visual Studio Code Setup
 written by Brandon Scholten
 ## Getting Started
-Visual Studio Code is perhaps the best piece of software Microsoft has ever created, and it wil become your best friend as you advance on your journey in computer science. Visual Studio Code allows you to edit text files (specifically those containing source code) of nearly any type, and has a plethora of extensions which will make your life easier as a programmer. 
+ Visual Studio Code allows you to edit text files (specifically those containing source code) of nearly any type, and has a plethora of extensions which will make your life easier as a programmer. 
 
 To Acquire your copy of VS Code, click [here](https://code.visualstudio.com/download).
 
@@ -17,7 +17,7 @@ The first icon will open a file browser that allows you to open a specific folde
 
 The search icon allows you to search through your code and has a find and replace feature. 
 
-The third icon is used for source control This allows for source control using Git.If you install Git on your system and open a folder which is under source control, this pane will allow you to do things such as make commits and push to rmeote repositories. If you don't know what source control is click [here]().
+The third icon is used for source control This allows for source control using Git. If you install Git on your system and open a folder which is under source control, this pane will allow you to do things such as make commits and push to rmeote repositories. 
 
 The icon with a play button provides options for debugging in folders which have a correctly configured `launch.json` file. For more information about debugging with VS Code click [here]()
 
@@ -25,13 +25,11 @@ The icon with four squares allows you to install extensions which add extra feat
 
 ## Getting a Compiler
 
-### What's a compiler?
-
-In English, to compile is to produce something from various sources. In C++, to compile is to produce an executable from various source code files. The compiler is the piece of software that is used to turn your code into something that can be ran on your computer. 
+In C++, to compile is to produce an executable from various source code files. The compiler is the piece of software that is used to turn your code into something that can be ran on your computer. 
 
 ### Setting up a compiler in VS Code
 
-Even though VS Code is the best piece of software Microsoft has ever written, they forgot to include a compiler for C++. To install the compiler, we will need to install one ourselves. 
+VS Code does not come with a compiler, so you will need to install one yourself. 
 
 #### Windows
 
@@ -47,9 +45,9 @@ Even though VS Code is the best piece of software Microsoft has ever written, th
 5. A terminal will then open. Copy and paste the following command into the terminal and press enter: `pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain`. This command will start the installation of the MinGW toolchain. This installs the specific packages required to compile C++ into an executable that is compatible with Windows.
     - When prompted to "Enter a selection", press enter.
     - When prompted whether to proceed with the installation, press Y and then enter. 
-    - Once the command finishes, you will officially have a compiler. (Congratulations!)
+    - Once the command finishes, you will officially have a compiler.
 
-6. Unfortunately for us, whoever wrote the installer for WinGW decided not to finish their work. So we will have to tell Windows ourselves where to find it. This can be done in Settings:
+6. To finish the installation, add the installatiom path of msys2:
     - Open Settings 
     - search for "environment variables" and select "Edit environment variables for your account". 
     - You should see this window: ![alt text](image-4.png)
@@ -59,7 +57,7 @@ Even though VS Code is the best piece of software Microsoft has ever written, th
 
 #### MacOS
 
-Mac users have a much easier life. The GCC compiler as well as the other tools nessecary to compile C++ for MacOS can be installed in two steps:
+The GCC compiler as well as the other tools nessecary to compile C++ for MacOS can be installed in two steps:
 
 1. use cmd + space to open spotlight search (or click the magnifying glass by the Wi-Fi icon in the top right corner) and type "terminal". Open the terminal application.
 
@@ -98,6 +96,6 @@ If you instead are seeing an error, here are a couple of things you may need to 
     - Select the option to add a debug configuration![alt text](image-6.png)
     - Select the option for GCC
 
-2. Check that the path used to access the compiler is the same as the installaiton path from earlier. 
+2. Check that the path used to access the compiler is the same as the installation path from earlier. 
     - In the file explorer open .vscode > tasks.json
     - Ensure that the file path being used for "command" is the same as the installation path for MSYS2. ![alt text](image-7.png)
